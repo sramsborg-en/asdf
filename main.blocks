@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="$g9)IOwYwN{MPMacSSkE" x="0" y="0"><statement name="HANDLER"><block type="startHB" id="a#:00l3A(2L0QR%kB2DL"></block></statement></block><block type="device_forever" id="WeRac8qx=im{/5K2Zo;/" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="yEJ8$nmX54])I5rz6mIj"><value name="IF0"><shadow type="logic_boolean" id="qzcLBY@:J5JL5*V7~M%%"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=".HnbAU^eqc3rB_GU{6,["><field name="OP">LT</field><value name="A"><shadow type="math_number" id="u[9@=qt^tsaLj^rlf:4$"><field name="NUM">0</field></shadow><block type="getSensors" id=",r/_CzBa3blixSpJ$2)R"><field name="sensorType">SensorType.Distance</field><field name="port_num">ThreePort.One</field></block></value><value name="B"><shadow type="math_number" id="UNQ=5N2:U!FAM|=xgLX3"><field name="NUM">5</field></shadow></value></block></value></block></statement></block><block type="device_show_leds" id="K1jH*ICs`Z_4jdbyJ}o5" disabled-reasons="pxt_automatic_disabled" x="489" y="49"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="DS^1l~8@H97CAbQQ8J~-" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        . # # # # 
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . .
+        `</field><next><block type="device_show_leds" id="kPbSkAikvZf.IFpK$2k{" disabled-reasons="pxt_automatic_disabled"><field name="LEDS">`
+        # . # # # 
+        # . . . # 
+        # # # . # 
+        # . # . # 
+        # # # . #
+        `</field></block></next></block></next></block><block type="device_random" id="neB2Y=KIT{n~=/1wMCwE" disabled-reasons="pxt_automatic_disabled" x="767" y="480"><value name="min"><shadow type="math_number" id="QScP|k5.tmPCllcbxk7y" disabled-reasons="pxt_automatic_disabled"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="E2opT~=!G%P]Dd~l-P*3" disabled-reasons="pxt_automatic_disabled"><field name="NUM">10</field></shadow></value></block></xml>
